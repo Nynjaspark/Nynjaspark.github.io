@@ -1,0 +1,256 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   body {
+    background-color: rgb(40, 9, 87);
+    color: rgb(91,170,171);
+    font-family: Verdana;
+    text-align: center;
+    margin-right: 0;
+  }
+  ul{
+    display: inline-block;
+    text-align: center;
+  }
+  li{
+    text-align: left;  
+  }
+  a{
+    color: rgb(162, 98, 170);
+  }
+  a:hover{
+    color: white;
+  }
+  
+
+
+/*BUTTON STUFF
+  /*.button-container{
+    width: 200px;
+    margin: 20px;
+    text-align: left;
+    position: relative;
+    float: left;
+  } */
+
+  .back-button {
+    position: fixed;
+    display: block;
+    margin-left: 0;
+    text-align: left;
+    /* Ensure no unwanted margins */
+}
+.test-button{
+    display: block;
+    margin-left: 0;
+    text-align: left;
+}
+.button-wrapper{
+    margin-bottom: 10px;
+    width: 100%;
+    clear: both;
+}
+.button1{
+  border:rgb(0,0,0);
+  background-color: rgb(20,139,204);
+
+  font-size: 20px;
+
+  border-radius: 15px;
+
+  margin-bottom: 5px;
+
+  width: 180px;
+
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: white;
+}
+
+
+
+.squareItem{
+  height: 50px;
+  width: 50px;
+  background-color: chartreuse;
+  margin: 5px;
+}
+  
+.container{
+  background-color: rgba(50,50,50,0);
+  width: 100%;
+  height: 800px;;
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;
+  /*align-items: flex-end;*/
+}
+
+.testContainer{
+  background-image: linear-gradient(rgb(225, 0, 255), blue);
+  width: 100%;
+  height: 800px;;
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;
+  /*align-items: flex-end;*/
+}
+
+
+.textContainer{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 5px;
+}
+
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.midText{
+  background-color: gray;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.dick a{
+  text-decoration: none;
+}
+
+
+
+.mainContent{
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+  border-style: outset;
+  /*
+  border-color: rgb(206, 9, 224);
+  border-left-color: blue;
+  border-top-color: blue;
+  */
+  border: 10px solid;
+  
+  border-image-source: linear-gradient(to bottom right, purple 40%,blue);
+  border-image-slice: 1;
+  
+}
+.leftSide{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.rightSide{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+.mainContent article{
+  margin-bottom: 25px;
+  
+}
+
+
+.counter{
+  
+  margin-top: 50px;
+}
+
+
+/*sticker*/
+#sticker1{
+  position: absolute;
+  z-index: 999;
+  cursor: move;
+  display: inline-block;
+}
+
+.sticker{
+  width: 100px;
+}
+#sticker2{
+  position: absolute;
+  z-index: 999;
+  cursor: move;
+  display: inline-block;
+}
+
+#jukeboxcontainer{
+  width: 40%;
+}
+
+.music-container{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+#song-wrapper{
+  background-color: rgb(51, 51, 51);
+  width: 60%;
+  height: 990px;
+  padding-right: 0;
+  margin-right: 0;
+  padding-top: 15px;
+  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 5px solid;
+  border-color: black;
+
+  box-sizing: border-box;
+}
+
+.song{
+  margin-top: 10px;
+
+ 
+}
+.genre{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+
+  width: 30%;
+}
+
+
+
+
+.contentContainerGamesPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.SudokuGUI{
+  margin-top: 10%;
+  width: 20%;
+  /*background-color: white;*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SudokuButton{
+  width: 50%;
+  height: 30px;
+  margin-top: 50px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="volHalf()"   >
+
+    <div class="music-container">
+        <audio id="audio" src="https://files.catbox.moe/6attm8.mp3" controls ></audio>
+
+        <div id="jukeboxcontainer">
+            <img src="imagesFolder/jukebox2.png" style="margin-top: 50%">
+        </div>
+
+        <div id="song-wrapper" >
+            <div class="genre" id="Rock">
+                <em><u>Rock</u></em>
+                <div class="song">
+                    <button class="playButton" onclick="fallenLeaves()"> Play </button>
+                    Fallen Leaves - Billy talent
+                </div>
+
+                <div class="song">
+                    <button class="playButton" onclick="redFlag()"> Play </button>
+                    Red Flag - Billy talent
+                </div>
+            </div>
+
+
+        </div>
+
+        <button onclick="getVolume()"> test </button>
+        
+    </div>
+
+
+    <script src="/js/volume.js"></script>
+</body>
+
+
+
+</html>
